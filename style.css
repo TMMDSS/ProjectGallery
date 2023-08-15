@@ -154,4 +154,7 @@
 .arrowBtn.right {
     background-color: blue;
     right: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
