@@ -125,6 +125,7 @@
     font-size: 3em;
     padding: 5px 15px;
     transition: all ease-in-out .1s;
+    border-radius: 10px;
 }
 
 #btnClose:hover {
@@ -138,13 +139,22 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    height: 80px;
-    width: 80px;
-    background: #07f81be7;
+    height: 50px;
+    width: 50px;
+    background: transparent;
+    color: white;
+    font-size: 32px;
+    border-radius: 10px;
+    padding: 35px;
+}
+
+.arrowBtn:hover {
+    background-color: gray;
+    color: black;
+    cursor: pointer;
 }
 
 .arrowBtn.left {
-    background-color: red;
     left: 1%;
     display: flex;
     align-items: center;
@@ -152,7 +162,6 @@
 }
 
 .arrowBtn.right {
-    background-color: blue;
     right: 1%;
     display: flex;
     align-items: center;
