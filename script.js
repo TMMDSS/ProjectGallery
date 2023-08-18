@@ -70,3 +70,14 @@ modal.addEventListener('click', (e) => {
         modal.classList.toggle('modalActive')
     }
 })
+
+// M O D A L  B T N  A R R O W
+
+document.querySelector("#btnModalRight").addEventListener("click", () => {
+
+})
+
+
+document.querySelector("#btnModalLeft").addEventListener("click", () => {
+    
+})
